@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">FTCScoutingApp</string>
+    <string name="hp_title">FTC Scouting App</string>
+    <string name="hp_sub">By Team Terrabats: 14525</string>
+    <string name="hp_but">Record a Match</string>
+    <string name="hp_but2">View Results</string>
+    <string name="hp_but3">About Us</string>
 </resources>
