@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="112dp"
+                android:layout_marginLeft="112dp"
+                android:layout_marginTop="32dp"
+                android:text="@string/mp_team_info"
+                android:textColor="@android:color/background_dark"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/editText13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="73dp"
+                android:layout_marginLeft="73dp"
+                android:layout_marginTop="14dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/mp_team_name" />
+
+            <EditText
+                android:id="@+id/editText14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="number"
+                android:text="@string/mp_team_number" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/mp_autonomous"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="30sp" />
+
+
+            <Switch
+                android:id="@+id/switch6"
+                android:layout_width="@android:dimen/thumbnail_height"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/mp_landed"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="18sp" />
+
+            <Switch
+                android:id="@+id/switch7"
+                android:layout_width="@android:dimen/thumbnail_height"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/mp_team_marker"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="18sp" />
+
+            <Switch
+                android:id="@+id/switch8"
+                android:layout_width="@android:dimen/thumbnail_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/mp_sample"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="18sp" />
+
+            <Switch
+                android:id="@+id/switch9"
+                android:layout_width="@android:dimen/thumbnail_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/mp_parking"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="128dp"
+                android:layout_marginLeft="128dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/mp_teleop"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/editText16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="number"
+                android:text="@string/mp_depot"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <EditText
+                android:id="@+id/editText17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="number"
+                android:text="@string/mp_lander"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="115dp"
+                android:layout_marginLeft="115dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/mp_endgame"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="30sp" />
+
+            <Spinner
+                android:id="@+id/planets_spinner"
+                android:layout_width="@android:dimen/thumbnail_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:layout_marginTop="10dp"
+                android:alwaysDrawnWithCache="false"
+                android:entries="@array/mp_end_list"
+                android:textColor="@android:color/holo_blue_dark" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -5,4 +5,22 @@
     <string name="hp_but">Record a Match</string>
     <string name="hp_but2">View Results</string>
     <string name="hp_but3">About Us</string>
+    <string name="mp_team_info">Team Info</string>
+    <string name="mp_team_name">Team Name?</string>
+    <string name="mp_team_number">Team Number?</string>
+    <string name="mp_autonomous">Autonomous</string>
+    <string name="mp_landed">Landed?</string>
+    <string name="mp_team_marker">Team Marker?</string>
+    <string name="mp_sample">Sampling?</string>
+    <string name="mp_parking">Parked?</string>
+    <string name="mp_teleop">Tele Op</string>
+    <string name="mp_depot">Minerals in Depot?</string>
+    <string name="mp_lander">Minerals in Lander?</string>
+    <string name="mp_endgame">Endgame</string>
+    <string-array name="mp_end_list">
+        <item>None</item>
+        <item>Partial Crater</item>
+        <item>Full Crater</item>
+        <item>Hanging</item>
+    </string-array>
 </resources>
